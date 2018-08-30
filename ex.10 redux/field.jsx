@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { changeValue } from './fieldActions'
 
+//precisa do "this.props" pois não esta dendo passado por referência
 class Field extends Component {
   render() {
     return (
